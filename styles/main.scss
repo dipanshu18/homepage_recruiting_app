@@ -1,0 +1,16 @@
+@use "nav";
+@use "hero";
+@use "services";
+@use "testimonials";
+@use "joinus";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}

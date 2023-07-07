@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #38a3a5;
+  font-family: "Poppins", sans-serif;
+  padding: 1rem 0;
+  color: #c7f9cc;
+  position: sticky;
+  top: 0px;
+}
+nav h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+  color: #80ed99;
+}
+nav .nav-items ul {
+  list-style: none;
+  display: flex;
+}
+nav .nav-items ul .home {
+  color: #57cc99;
+  margin: 0;
+}
+nav .nav-items ul li {
+  margin-left: 2rem;
+}
+nav .nav-items ul li a {
+  text-decoration: none;
+  color: #c7f9cc;
+  transition: all 0.25s;
+}
+nav .nav-items ul li a:hover {
+  color: #80ed99;
+}
+nav button {
+  background-color: #c7f9cc;
+  border: none;
+  padding: 1rem 2rem;
+  color: #22577a;
+  border-radius: 1rem;
+  transition: all 0.5s;
+  font-weight: 700;
+}
+nav button:hover {
+  background-color: #22577a;
+  color: #80ed99;
+}
+
+.hero {
+  background-color: #38a3a5;
+  height: 70vh;
+  justify-content: center;
+  padding: 3em;
+}
+.hero .container {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  color: #80ed99;
+}
+.hero .container .hero-details {
+  width: 50%;
+  padding-top: 5rem;
+  padding-right: 5rem;
+}
+.hero .container .hero-details h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 6rem;
+}
+.hero .container .hero-details p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #c7f9cc;
+  letter-spacing: 2px;
+}
+.hero .container .hero-image {
+  display: flex;
+  width: 40%;
+}
+.hero .container .hero-image img {
+  width: 400px;
+  height: 400px;
+}
+
+#services {
+  height: 80vh;
+}
+#services .container {
+  width: 80%;
+  margin: 0 auto;
+}
+#services .container h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: #22577a;
+  text-align: center;
+  padding: 1em 1em 0.5em;
+}
+#services .container .service-types {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#services .container .service-types .service {
+  background-color: #38a3a5;
+  margin: 1rem 2rem;
+  text-align: center;
+  width: 200px;
+  height: 150px;
+}
+#services .container .service-types .service i {
+  font-size: 2em;
+  color: #80ed99;
+  padding-top: 1em;
+}
+#services .container .service-types .service h1 {
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #80ed99;
+}
+
+#testimonials {
+  height: 60vh;
+  background-color: #80ed99;
+}
+#testimonials .container {
+  width: 80%;
+  margin: 0 auto;
+}
+#testimonials .container h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: #22577a;
+  text-align: center;
+  padding: 1em 1em 0.5em;
+}
+#testimonials .container .users {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#testimonials .container .users .user {
+  margin: 1rem 2rem;
+  text-align: center;
+  width: 200px;
+  height: 300px;
+}
+#testimonials .container .users .user img {
+  padding-top: 1em;
+  border-radius: 100%;
+}
+#testimonials .container .users .user h1 {
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: #22577a;
+}
+#testimonials .container .users .user p {
+  color: #38a3a5;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+footer {
+  background-color: #c7f9cc;
+  font-family: "Poppins";
+  height: 50vh;
+  color: #22577a;
+  margin: 0 auto;
+  text-align: center;
+}
+footer h1 {
+  font-weight: 600;
+  text-align: center;
+  padding: 2em 1em 1em;
+  font-size: 2rem;
+}
+footer button {
+  border: none;
+  border-radius: 1rem;
+  background-color: #80ed99;
+  color: #22577a;
+  font-weight: 800;
+  font-size: 1rem;
+  padding: 1em 5em;
+  margin-bottom: 5em;
+  transition: all 0.5s;
+}
+footer button:hover {
+  background-color: #22577a;
+  color: #80ed99;
+}
+footer p span {
+  font-weight: 400;
+}
+footer p .email {
+  font-weight: bolder;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
